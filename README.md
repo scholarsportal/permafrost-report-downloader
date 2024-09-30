@@ -12,7 +12,7 @@ There are only two commands that need to be installed:
 ## Usage
 
 ```bash
-./report_downloader ${REPORT_URL} ${NUMBER_PAGES} ${CSRF_TOKEN} ${SESSION_ID}
+./report_downloader ${REPORT_URL} ${NUMBER_PAGES} ${CSRF_TOKEN} ${SESSION_ID} > report.csv
 ```
 
 - `REPORT_URL`: the URL for the first page of the normalization report. Note that this URL must end in `/`
@@ -27,7 +27,7 @@ There are only two commands that need to be installed:
 **Note:** If you log out or are logged out of Archivematica, you will need to retrieve a new CSRF token and session ID.
 
 After the script is done, you will find that a file named `report.csv` was created in the directory where you ran the
-script.
+script. You can change the name of the file by editing the name at the end of the command.
 
 If running the command returns a "Permission denied" error, you may need to first run `chmod +x report_downloader.sh` 
 to grant permission to execute the script.
