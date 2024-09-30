@@ -1,6 +1,6 @@
 # Permafrost Report Downloader
 
-A Bash script to download an Archivematica ingestion report in CSV format.
+A Bash script to download an Archivematica normalization report in CSV format.
 
 ## Purpose
 
