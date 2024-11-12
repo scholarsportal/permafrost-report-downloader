@@ -44,7 +44,7 @@ The URL must end in `/` and would be structured as: `https://your-Archivematica-
 
 ### Number of pages
 
-To calculate, divide the total number of items in the report by `10`. If there is a remainder, plus 1 
+To calculate, divide the total number of items in the report by `10`. If there is a remainder, round up 
 (e.g., `1143/10 = 114.3`, then total pages = `115`).
 
 **Note:** (1) there is currently an upper limit of `10,000,000` for the page count, (2) if no page count is given, the 
