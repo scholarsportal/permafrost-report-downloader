@@ -40,7 +40,7 @@ to grant permission to execute the script.
 
 ### Report URL
 
-The URL must end in `\` and would be structured as: `https://your-Archivematica-instance.scholarsportal.info/ingest/normalization-report/uuid-of-the-package-in-the-Ingest-tab/`.
+The URL must end in `/` and would be structured as: `https://your-Archivematica-instance.scholarsportal.info/ingest/normalization-report/uuid-of-the-package-in-the-Ingest-tab/`.
 
 ### Number of pages
 
