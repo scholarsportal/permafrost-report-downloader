@@ -1,4 +1,4 @@
-# Permafrost Report Downloader
+# Permafrost Normalization Report Downloader
 
 A Bash script to download an Archivematica normalization report in CSV format.
 
