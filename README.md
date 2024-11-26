@@ -16,7 +16,7 @@ There are only two commands that need to be installed:
 ## Usage
 
 ```bash
-./report_downloader ${REPORT_URL} ${NUMBER_PAGES} ${CSRF_TOKEN} ${SESSION_ID} > report.csv
+./report_downloader.sh ${REPORT_URL} ${NUMBER_PAGES} csrftoken=${CSRF_TOKEN} sessionid=${SESSION_ID} > report.csv
 ```
 
 - `REPORT_URL`: the URL for the first page of the normalization report.
